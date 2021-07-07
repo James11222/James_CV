@@ -32,7 +32,7 @@ JOURNAL_MAP = {
 
 def format_pub(args):
     ind, pub = args
-    fmt = "\\item{{0}}".format(ind)
+    fmt = "\\item "
     n = [
         i
         for i in range(len(pub["authors"]))

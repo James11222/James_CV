@@ -13,6 +13,6 @@ Every 24 Hours, `scrape_ads` is run, which pulls my publications & their citatio
 
 <object data="https://github.com/James11222/James_CV/blob/1dcebc0dcd537eebc589c27f784d05adca4defc7/James__CV-4.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://github.com/James11222/James_CV/blob/1dcebc0dcd537eebc589c27f784d05adca4defc7/James__CV-4.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/James11222/James_CV/blob/1dcebc0dcd537eebc589c27f784d05adca4defc7/James__CV-4.pdf">Download PDF</a>.</p>
+        <p>This browser does not support inline PDFs. Please download the PDF to view it: <a href="https://github.com/James11222/James_CV/blob/1dcebc0dcd537eebc589c27f784d05adca4defc7/James__CV-4.pdf">Download PDF</a>.</p>
     </embed>
 </object>

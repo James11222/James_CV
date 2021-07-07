@@ -1,0 +1,291 @@
+%-------------------------
+% Resume in Latex
+% Author : Amlaan Bhoi
+% Adapted from: Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+
+\usepackage[charter]{mathdesign} % Bitstream Charter
+% \usepackage{newpxtext,newpxmath} % Palatino
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\evensidemargin}{-0.50in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+  \item[]\small{
+    \hspace{-9pt}\textbf{#1}{: #2 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{-10pt}\textbf{#1} & #2 \\
+      \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% custom commands
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  \small \textbf{\href{abhoi.github.io}{\huge James Sunseri}} \\  \href{mailto:jamessunseri@berkeley.edu}{\color{blue}\underline{jamessunseri@berkeley.edu}} $\vert$
+  916-756-7636 $\vert$
+  LinkedIn: \href{https://www.linkedin.com/in/james-sunseri-b43a86172/}{\color{blue}\underline{James Sunseri}} $\vert$
+\end{center}
+
+%-----------EDUCATION-----------------
+\shorterSection{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California Berkeley}{Berkeley, CA}
+      {BA in Physics and Astrophysics;  GPA: 3.958/4.0}{Expected May 2022}{
+    }
+
+    
+    %   \resumeItemNoBullet{Relevant Coursework}{Analysis \& Design of Algorithms, Data Structures using C, Operating Systems, Pattern Recognition}
+  \resumeSubHeadingListEnd
+  
+ 
+%-----------RESEARCH INTERESTS-----------------
+\shorterSection{Research Interests}
+I am most interested in Computational Astrophysics. I am most passionate about simulating magnetohydrodynamics, cosmology, and numerical relativity of compact objects. I also have a strong interest in observation of supernovae, compact objects, and other extreme astrophysical phenomena. 
+\vspace{5pt}
+
+%-----------EXPERIENCE-----------------
+\shorterSection{Research Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Undergraduate Researcher}{February 2019 - Present}
+      {Nickel Observer and Researcher under Alex Filippenko}{}
+      \resumeItemListStart
+        \resumeItem{Period-determination and Identification Pipeline Suite (astroPIPS) Developer}{In this project I have been adding methods to the PIPS pipeline developed in python. These methods allow one to determine stellar properties of RR Lyrae stars using the morphology of a lightcurve. Package is available for python via pip installation.}
+        \resumeItem{Regular KAIT Telescope Checker}
+          {As part of this research team I am responsible for routinely analyzing the images KAIT takes in a given night and search for type 1a supernovae in the data}
+        \resumeItem{Zwicky Transient Facility Remote Checker}
+            {Our research group has joined the ZTF collaboration to discover supernovae candidates, my role is to check the data from the previous night I am assigned to and check for any interesting candidates and request followups for potential candidates}
+        \resumeItem{Nickel 1 Meter Observer}
+          {Monthly overnight observer for the Nickel 1 Meter Telescope at Lick observatory
+            \begin{itemize}
+                \item Observed on the Nickel 15+ Nights
+                \item Fully Checked Out Observer for the Nickel
+                \item Recorded data for a potential binary neutron star merger and was part of several GCN Circulars
+            \end{itemize}
+        \resumeItem{Shane 3 Meter Observer}
+            {Using the KAST instrument to collect spectroscopic data for supernovae and other interesting candidates.}
+          }
+      \resumeItemListEnd
+      \resumeSubheading
+        {Cosmological Multiscale Morphological Analysis of Baryonic Matter in IllustrisTNG simulations}{October 2020 - Present}{UC Berkeley}{}
+        \resumeItemListStart
+            \resumeItem{Summary}
+                {The goal of this project is to either confirm or deny the validity of assumptions made about the presence of baryonic matter in large scale cosmological simulations. This project is done under the guidance of Dr. Jia Liu at UC Berkeley with the use of the NERSC supercomputer at LBNL.}
+        \resumeItemListEnd
+     \resumeSubheading
+        {LIGO Summer Undergraduate Research Fellowship}{June 2020 - August 2020}{California Institute of Technology}{}
+        \resumeItemListStart
+            \resumeItem{Measuring The Hubble Constant With Dynamical Tides In Inspiraling Neutron Star Binaries}
+                {In this research fellowship I worked under Dr. Hang Yu at Caltech to do theoretical astrophysics research involving relativistic dynamics, neutron star modes, and cosmology. This project used extensive computational methods in python.}
+        \resumeItemListEnd
+    \resumeSubheading
+        {ULAB Computational Astrophysics Project}{September 2019- May 2020}{Position of ULAB Mentee}{}
+        \resumeItemListStart
+            \resumeItem{Mixing Layers}
+                {In this project I learned how to utilize Athena++ to run MHD simulations by learning C++ and applying it to look into the mixing layer phenomena found in the interstellar medium. Along with this we created a research project poster and delivered a presentation on our project.}
+        \resumeItemListEnd
+        
+    \resumeSubheading
+        {Intro to Astro Research Summer Workshop}{}
+        {Workshop during Summer 2019}{}
+        \resumeItemListStart
+            \resumeItem{Topics}
+                {In this workshop we were shown certain tools and libraries for astrophysics data analysis in python, how to use Latex, how to pull data from databases using SQL, and how to use ADS and ArXiv to read and analyze scientific papers effectively}
+        \resumeItemListEnd
+        
+    \resumeSubheading
+      {Intro to Computational Physics Final Project}{}
+      {We programmed a virtual simulation of a pool game in Python}{}
+      \resumeItemListStart
+        \resumeItem{Physics Engine}
+          {I wrote the physics engine that models the elastic collisions between pool balls, utilizing vector based object oriented programming}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------Research Talks-----------------
+\shorterSection{Research Talks}
+  \resumeSubHeadingListStart
+  \small
+    \item{
+     \textbf{LIGO Caltech SURF Summer Talk}{: Presented my research to fellow SURF participants, LIGO research scientists, and mentors of the program.}
+    }
+    \vspace{-5pt}
+    \item{
+     \textbf{Astro 198: Introduction to Research Talk}{: I gave a talk about gravitational wave cosmology with binary neutron star mergers to fellow students and Professor Mariska Kriek.}
+    }
+    \vspace{-5pt}
+    \item{
+     \textbf{237th American Astronomical Society Meeting iPoster Presentation}{: Presented a research project via iPoster about gravitational wave cosmology I had done over summer in the LIGO SURF Program.}
+    }
+    \vspace{-5pt}
+    \item{
+     \textbf{Filippenko Research Group Talk}{: Presented a research project about gravitational wave cosmology I had done over summer and it's possible applications in our own research.}
+    }
+    
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\shorterSection{Skills}
+  \resumeSubHeadingListStart
+  \small
+    \item{
+     \textbf{Programming Languages}{: Python, UNIX, Java, C++, HTML, Javascript, CSS}
+    }
+    \vspace{-5pt}
+    \item{
+     \textbf{Technologies}{: GitHub, Adobe Illustrator, Adobe Photoshop, Adobe Premier Pro, Microsoft Office Programs, Google Drive}
+    }
+    \vspace{-5pt}
+    \item{
+     \textbf{Libraries}{: Numpy, Pandas, Jupyter, PyGame, MatPlotlib, SciPy, yt | Athena++}
+    }
+    \vspace{-5pt}
+    \item{
+     \textbf{Languages}{: English, French}
+    }
+\resumeSubHeadingListEnd
+
+%-----------OUTREACH-----------------
+\shorterSection{Outreach}
+\resumeSubHeadingListStart
+\resumeSubheading
+      {World of Wonders Science Museum}{Lodi, CA}
+      {The local science museum of the San-Joaquin County}{July 2017 - Present}
+  
+  \begin{itemize}
+      \item Co-wrote and Wrote 5 lessons for the WOW Education Programming. \textit{Art of Alchemy, Narrowing on Newton, Solar System and Beyond II, What is Gravity, and Lunar School } and compiled 80+ Lessons for summer camps
+     \item Helped plan and teach several summer camps for the past two years. \textit{Astronaut Training, Science Wizards, Science Detectives, Terrific Tinkering, etc...}
+     \item Trained to operate Lodi Unified School District's portable planetarium known as the StarLab
+     \item Taught several Lunar School lessons for the WOW during the Apollo 11 50th Anniversary
+     \item Helped teach with the outreach program for the WOW known as WOW on Wheels and helped run both Forensics and Astronaut Camps
+     \item In the promotional video for the huge future expansion of the WOW
+     \item Successfully taught two lessons at the local middle school during my senior year of high school
+     \item{Was on the news network known as Good Day Sacramento for the WOW Museum to celebrate the Apollo 11 50th Anniversary}
+  \end{itemize}
+\resumeSubHeadingListEnd
+
+%-----------Teaching-----------------
+\shorterSection{Teaching}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Undergraduate Student Instructor for Astro C10}{Berkeley, CA}{Astro C10 - Introduction to Astronomy}{August 2020 - Present}
+\begin{itemize}
+    \item I am a UGSI for the Introduction to Astronomy course taught by Professor Alex Filippenko at UC Berkeley. I teach 4 sections, host office hours, prepare lessons and quizzes, and proctor exams
+\end{itemize}
+      
+\resumeSubheading
+{Head Facilitator for Python Decal}{Berkeley, CA}{Python Decal - Introduction to Computational Methods for Astronomers}{August 2020 - Present}
+\begin{itemize}
+    \item As head facilitator for this course I have planned the entire course with the help of other facilitators, developed the curriculum, given lectures, hosted office hours, and assigned and graded homework and projects.
+\end{itemize}
+
+\resumeSubheading{Berkeley High School RISE Mentor}{Berkeley, CA}
+ {A tutor and mentor to struggling high school students from underprivileged families}{August 2018 - Present}
+\resumeSubheading{Lodi High School Academic Tutor}{Lodi, CA}
+ {Was the president of the tutoring club at Lodi High, and worked for the school district as an after school tutor}{August 2017 - May 2018}
+ \resumeSubHeadingListEnd
+ 
+ 
+%  %-----------Publications-----------------
+%  \shorterSection{Publications}
+%   \resumeSubHeadingListStart
+%   \small
+%     \item{
+%      \textbf{PIPS: Integrated Analysis Tools for Variable Stars}{: Presented my research to fellow SURF participants, LIGO research scientists, and mentors of the program.}
+%     }
+    
+
+%-----------Addtional Experience & Achievements-----------------
+\shorterSection{Awards \& Conferences}
+  \resumeSubHeadingListStart
+  \small
+    \item{Outstanding (U)GSI Teaching Award: Given for outstanding teaching performance recognized by the Astronomy Department at UC Berkeley}
+    \vspace{-5pt}
+    \item{Recipient of the Northern California Scholarship Foundations Award}
+    \vspace{-5pt}
+    \item{Attended the California Boys State Conference held at Sacramento State in the summer of 2017}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+%------------Extracurricular---------------
+\shorterSection{Extracurriculars}
+  \resumeSubHeadingListStart
+  \small
+    \item{Society of Physics Students member}
+    \vspace{-5pt}
+    \item{Undergraduate Astronomy Society member}
+    \vspace{-5pt}
+    \item{Member of the Cercle de Français at UC Berkeley}
+  \resumeSubHeadingListEnd
+
+
+\end{document}

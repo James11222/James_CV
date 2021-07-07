@@ -1,5 +1,5 @@
 # CV
-[![Update publications](https://github.com/James11222/James_CV/actions/workflows/update_pubs.yml/badge.svg)]]
+![Update publications](https://github.com/James11222/James_CV/actions/workflows/update_pubs.yml/badge.svg)
 
 
 This repo is offers an automation to updating a CV with publications. This repo was modified from Arjun Savel's original repo. 

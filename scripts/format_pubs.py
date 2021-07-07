@@ -36,9 +36,9 @@ def format_pub(args):
     n = [
         i
         for i in range(len(pub["authors"]))
-        if "Savel" in pub["authors"][i]
+        if "Sunseri" in pub["authors"][i]
     ][0]
-    pub["authors"][n] = "\\textbf{Savel, Arjun}"
+    pub["authors"][n] = "\\textbf{Sunseri, James}"
     
     pub_title = pub["title"].replace('{\\&}amp;', '\&') # for latex literal interp.
     
@@ -48,7 +48,7 @@ def format_pub(args):
         if n >= 4:
             others = len(pub['authors']) - 4
             fmt += "\\ ({{{0}}} other co-authors, ".format(others)
-            fmt += "incl.\\ \\textbf{Savel, Arjun})"
+            fmt += "incl.\\ \\textbf{Sunseri, James})"
     elif len(pub["authors"]) > 1:
         fmt += "; ".join(pub["authors"][:-1])
         fmt += "; \\& " + pub["authors"][-1]
@@ -115,7 +115,7 @@ if __name__ == "__main__":
 
     # Compute citation stats
     npapers = len(ref)
-    nfirst = sum(1 for p in pubs if "Savel" in p["authors"][0])
+    nfirst = sum(1 for p in pubs if "Sunseri" in p["authors"][0])
     cites = sorted((p["citations"] for p in pubs), reverse=True)
     ncitations = sum(cites)
     hindex = sum(c > i for i, c in enumerate(cites))

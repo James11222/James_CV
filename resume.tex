@@ -67,6 +67,8 @@
     \end{tabular*}\vspace{-5pt}
 }
 
+
+
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
@@ -78,6 +80,14 @@
 
 % custom commands
 \newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+\titleformat{\subsection}{
+  \vspace{-6pt}\scshape\raggedright \normalsize
+}{}{0em}{}[\color{black} \vspace{-5pt}]
+
+\newcommand{\shortershorterSection}[1]{\vspace{-10pt}\subsection{#1}}
+
+
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -114,12 +124,20 @@ I am most interested in Computational Astrophysics. I am most passionate about s
 
 \shorterSection{Publications}
 \input{supp_tex/pubs_summary}
+\vspace{4pt}
+\shortershorterSection{\underline{Refereed Publications}}
 \resumeSubHeadingListStart
-
 \small
-
 \begin{enumerate}
-\input{supp_tex/pubs_ref}
+\item Pending
+% \input{supp_tex/pubs_ref}
+\end{enumerate}
+\resumeSubHeadingListEnd
+
+\shortershorterSection{\underline{Non-refereed Publications}}
+\resumeSubHeadingListStart
+\small
+\begin{enumerate}
 \input{supp_tex/pubs_unref}
 \end{enumerate}
 \resumeSubHeadingListEnd

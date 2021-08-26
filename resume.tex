@@ -7,6 +7,7 @@
 
 \documentclass[letterpaper,10pt]{article}
 
+
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -35,8 +36,11 @@
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
 
-\urlstyle{same}
+\newcommand{\arxiv}[1]{{\href{http://arxiv.org/abs/#1}{arXiv:{#1}}}}
+\newcommand{\foreign}[1]{\textit{#1}}
+\newcommand{\etal}{\foreign{et~al.}}
 
+\urlstyle{same}
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
@@ -78,6 +82,8 @@
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
 
 % custom commands
 \newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
@@ -127,20 +133,20 @@ I am most interested in Computational Astrophysics. I am most passionate about s
 \input{supp_tex/pubs_summary}
 \vspace{4pt}
 \shortershorterSection{\underline{Refereed Publications}}
-\resumeSubHeadingListStart
+% \resumeSubHeadingListStart
 \small
 \begin{enumerate}
 \input{supp_tex/pubs_ref}
 \end{enumerate}
-\resumeSubHeadingListEnd
+% \resumeSubHeadingListEnd
 
 \shortershorterSection{\underline{Non-refereed Publications}}
-\resumeSubHeadingListStart
+% \resumeSubHeadingListStart
 \small
 \begin{enumerate}
 \input{supp_tex/pubs_unref}
 \end{enumerate}
-\resumeSubHeadingListEnd
+% \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------------
 \shorterSection{Research Experience}

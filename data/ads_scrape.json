@@ -52,6 +52,24 @@
     "year": "2023"
   },
   {
+    "arxiv": null,
+    "authors": [
+      "Sunseri, James",
+      "Li, Zack",
+      "Liu, Jia"
+    ],
+    "citations": 0,
+    "doctype": "article",
+    "doi": "10.1103/PhysRevD.107.023514",
+    "page": 23514,
+    "pub": "Physical Review D",
+    "pubdate": "2023-01-00",
+    "title": "Effects of baryonic feedback on the cosmic web",
+    "url": "https://ui.adsabs.harvard.edu/abs/2023PhRvD.107b3514S",
+    "volume": "107",
+    "year": "2023"
+  },
+  {
     "arxiv": "2212.05927",
     "authors": [
       "Sunseri, James",

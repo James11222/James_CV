@@ -70,6 +70,24 @@
     "year": "2023"
   },
   {
+    "arxiv": null,
+    "authors": [
+      "Sunseri, James",
+      "Li, Zack",
+      "Liu, Jia"
+    ],
+    "citations": 1,
+    "doctype": "software",
+    "doi": "10.5281/zenodo.7487090",
+    "page": null,
+    "pub": "Zenodo",
+    "pubdate": "2022-12-27",
+    "title": "James11222/CosmoMMF: COSMOMMF GITHUB",
+    "url": "https://ui.adsabs.harvard.edu/abs/2022zndo...7487090S",
+    "volume": null,
+    "year": "2022"
+  },
+  {
     "arxiv": "2210.10206",
     "authors": [
       "Sunseri, James",

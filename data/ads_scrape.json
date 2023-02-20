@@ -73,6 +73,27 @@
     "arxiv": null,
     "authors": [
       "Sunseri, James",
+      "Slepian, Zachary",
+      "Portillo, Stephen",
+      "Hou, Jiamin",
+      "Kahraman, Sule",
+      "Finkbeiner, Douglas"
+    ],
+    "citations": 0,
+    "doctype": "abstract",
+    "doi": null,
+    "page": null,
+    "pub": "American Astronomical Society Meeting Abstracts",
+    "pubdate": "2023-01-00",
+    "title": "SARABANDE: 3/4 Point Correlation Functions with Fast Fourier Transforms",
+    "url": "https://ui.adsabs.harvard.edu/abs/2023AAS...24110528S",
+    "volume": "55",
+    "year": "2023"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "Sunseri, James",
       "Li, Zack",
       "Liu, Jia"
     ],
@@ -479,8 +500,8 @@
     "pub": "Transient Name Server Classification Report",
     "pubdate": "2019-11-00",
     "title": "LOSS Transient Classification Report for 2019-11-15",
-    "url": "https://ui.adsabs.harvard.edu/abs/2019TNSCR2891....1Z",
-    "volume": "2019-2891",
+    "url": "https://ui.adsabs.harvard.edu/abs/2019TNSCR2376....1Z",
+    "volume": "2019-2376",
     "year": "2019"
   },
   {
@@ -499,8 +520,8 @@
     "pub": "Transient Name Server Classification Report",
     "pubdate": "2019-11-00",
     "title": "LOSS Transient Classification Report for 2019-11-15",
-    "url": "https://ui.adsabs.harvard.edu/abs/2019TNSCR2376....1Z",
-    "volume": "2019-2376",
+    "url": "https://ui.adsabs.harvard.edu/abs/2019TNSCR2891....1Z",
+    "volume": "2019-2891",
     "year": "2019"
   },
   {

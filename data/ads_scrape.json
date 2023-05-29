@@ -94,6 +94,27 @@
     "arxiv": null,
     "authors": [
       "Sunseri, James",
+      "Slepian, Zachary",
+      "Portillo, Stephen",
+      "Hou, Jiamin",
+      "Kahraman, Sule",
+      "Finkbeiner, Douglas P."
+    ],
+    "citations": 0,
+    "doctype": "article",
+    "doi": "10.1093/rasti/rzad003",
+    "page": 62,
+    "pub": "RAS Techniques and Instruments",
+    "pubdate": "2023-01-00",
+    "title": "SARABANDE: 3/4 point correlation functions with fast Fourier transforms",
+    "url": "https://ui.adsabs.harvard.edu/abs/2023RASTI...2...62S",
+    "volume": "2",
+    "year": "2023"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "Sunseri, James",
       "Li, Zack",
       "Liu, Jia"
     ],

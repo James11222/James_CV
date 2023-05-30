@@ -91,7 +91,7 @@
     "year": "2023"
   },
   {
-    "arxiv": null,
+    "arxiv": "2210.10206",
     "authors": [
       "Sunseri, James",
       "Slepian, Zachary",
@@ -126,27 +126,6 @@
     "pubdate": "2022-12-27",
     "title": "James11222/CosmoMMF: COSMOMMF GITHUB",
     "url": "https://ui.adsabs.harvard.edu/abs/2022zndo...7487090S",
-    "volume": null,
-    "year": "2022"
-  },
-  {
-    "arxiv": "2210.10206",
-    "authors": [
-      "Sunseri, James",
-      "Slepian, Zachary",
-      "Portillo, Stephen",
-      "Hou, Jiamin",
-      "Kahraman, Sule",
-      "Finkbeiner, Douglas P."
-    ],
-    "citations": 0,
-    "doctype": "eprint",
-    "doi": "10.48550/arXiv.2210.10206",
-    "page": null,
-    "pub": "arXiv e-prints",
-    "pubdate": "2022-10-00",
-    "title": "SARABANDE: 3/4 Point Correlation Functions with Fast Fourier Transforms",
-    "url": "https://ui.adsabs.harvard.edu/abs/2022arXiv221010206S",
     "volume": null,
     "year": "2022"
   },

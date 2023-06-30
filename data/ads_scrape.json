@@ -1,6 +1,6 @@
 [
   {
-    "arxiv": null,
+    "arxiv": "2211.02823",
     "authors": [
       "Ailawadhi, B.",
       "Dastidar, R.",
@@ -52,7 +52,7 @@
     "year": "2023"
   },
   {
-    "arxiv": null,
+    "arxiv": "2212.05927",
     "authors": [
       "Sunseri, James",
       "Li, Zack",
@@ -70,7 +70,7 @@
     "year": "2023"
   },
   {
-    "arxiv": null,
+    "arxiv": "2210.10206",
     "authors": [
       "Sunseri, James",
       "Slepian, Zachary",
@@ -79,7 +79,7 @@
       "Kahraman, Sule",
       "Finkbeiner, Douglas P."
     ],
-    "citations": 0,
+    "citations": 1,
     "doctype": "article",
     "doi": "10.1093/rasti/rzad003",
     "page": 62,
@@ -130,7 +130,7 @@
     "year": "2022"
   },
   {
-    "arxiv": null,
+    "arxiv": "2107.14223",
     "authors": [
       "Murakami, Yukei S.",
       "Jennings, Connor",
@@ -155,7 +155,7 @@
     "year": "2022"
   },
   {
-    "arxiv": null,
+    "arxiv": "2203.05596",
     "authors": [
       "Zheng, WeiKang",
       "Stahl, Benjamin E.",
@@ -258,7 +258,7 @@
     "year": "2022"
   },
   {
-    "arxiv": null,
+    "arxiv": "2106.06897",
     "authors": [
       "Kilpatrick, Charles D.",
       "Coulter, David A.",
@@ -344,7 +344,7 @@
       "Wiesner, Matthew P.",
       "Zhang, Keto D."
     ],
-    "citations": 18,
+    "citations": 17,
     "doctype": "article",
     "doi": "10.3847/1538-4357/ac23c6",
     "page": 258,

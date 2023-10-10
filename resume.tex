@@ -7,13 +7,14 @@
 
 \documentclass[letterpaper,10pt]{article}
 
-
+\usepackage{orcidlink}
+\usepackage{fontawesome}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
+% \usepackage[usenames,dvipsnames]{color}
+% \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage{hyperref}
 % \usepackage[pdflatex, hidelinks]{hyperref}
@@ -55,6 +56,12 @@
 \newcommand{\resumeItem}[2]{
   \item\small{
     \textbf{#1}{: #2 \vspace{-3pt}}
+  }
+}
+
+\newcommand{\resumeItemSimple}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-3pt}}
   }
 }
 
@@ -114,6 +121,10 @@
 \newcommand{\isbn}[1]{{\footnotesize(\textsc{isbn:}{#1})}}
 
 
+\newcommand{\LinkedinLogo}{\textcolor{rgb:red,6;green,108;blue,170}{\faLinkedinSquare}}
+
+
+
 
 
 %-------------------------------------------
@@ -124,28 +135,78 @@
 
 %----------HEADING-----------------
 \begin{center}
-  \small \textbf{\huge James Sunseri} \\  \href{mailto:jamessunseri@berkeley.edu}{\color{blue}\underline{jamessunseri@berkeley.edu}} $\vert$
-  916-756-7636 $\vert$
-  \href{https://www.jamessunseri.com}{\color{blue}\underline{jamessunseri.com}} $\vert$
+  \textbf{\huge James Sunseri} \\ \vspace{0.07in} 
+  {\Large Astrophysics Graduate Student} \\ \vspace{0.05in} 
+  
+  % \href{mailto:jamessunseri@berkeley.edu}{\color{blue}\underline{jamessunseri@berkeley.edu}} $\vert$
+  % 916-756-7636 $\vert$
+  % \href{https://www.jamessunseri.com}{\color{blue}\underline{jamessunseri.com}} $\vert$
+
+
+  {\normalsize \faSendO \hspace{0pt} \href{href="mailto:jsunseri@princeton.edu"}{jsunseri@princeton.edu} | {\Large \orcidlink{0000-0003-4274-2662}} \hspace{-2pt} \href{https://orcid.org/0000-0003-4274-2662/}{0000-0003-4274-2662} | \faUser \hspace{0 pt} \href{https://www.jamessunseri.com}{jamessunseri.com} \par \vspace{0.05in} \LinkedinLogo \hspace{0pt} \href{https://www.linkedin.com/in/jamessunseri}{linkedin.com/in/jamessunseri} | \faGithubSquare \hspace{0pt} \href{https://github.com/james11222}{github.com/james11222}}
 \end{center}
 
 %-----------EDUCATION-----------------
 \shorterSection{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
+      {Princeton University}{Princeton, NJ}
+      {\textbf{Hertz Fellow}}{}{
+    }
+    \vspace{-20pt}
+    \resumeSubheading
+    {}{}{Ph.D. Astrophysical Sciences }{Expected 2028}{
+    }
+    \vspace{-20pt}
+    \resumeSubheading
+    {}{}{M.S. Astrophysical Sciences }{Expected 2025}{
+    }
+    \resumeSubheading
       {University of California Berkeley}{Berkeley, CA}
-      {BA in Physics and Astrophysics;  GPA: 3.95/4.0}{Expected December 2022}{
+      {B.A. Physics; B.A. Astrophysics with High Distinction | Advisors: Prof. Alex Filippenko, Prof. Jia Liu, Prof. Zachary Slepian}{2022}{
     }
 
-    
-    %   \resumeItemNoBullet{Relevant Coursework}{Analysis \& Design of Algorithms, Data Structures using C, Operating Systems, Pattern Recognition}
   \resumeSubHeadingListEnd
   
  
 %-----------RESEARCH INTERESTS-----------------
 \shorterSection{Research Interests}
-I am most interested in Computational Astrophysics with a passion for simulating magnetohydrodynamics, cosmology, and numerical relativity of compact objects. I also have strong interests in supernovae, compact objects, and other extreme astrophysical phenomena. 
+
+\resumeItemListStart
+\resumeItemSimple{}{Implications of baryonic feedback on cosmology}
+\resumeItemSimple{}{Magnetohydrodynamical simulations of high-energy astrophysical phenomena}
+\resumeItemSimple{}{Higher-order statistics and N-Point Correlation Functions}
+\resumeItemSimple{}{Machine learning and generative models}
+\resumeItemSimple{}{Efficient algorithm design for large datasets}{}
+\resumeSubHeadingListEnd
+
+
 \vspace{5pt}
+
+%-----------EXPERIENCE-----------------
+\shorterSection{Positions}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Visiting Student Researcher, Kavli IPMU}{Kashiwanoha, Japan}{The Effects of Massive Neutrinos and Dark Energy on the Cosmic Web | Advisor: Prof. Jia Liu}{2023}{
+    }
+    \resumeSubheading
+      {Student Researcher, UC Berkeley}{Berkeley, CA}{Transient Based Observational Astronomy | Advisor: Prof. Alex Filippenko}{2018 - 2022}{
+    }
+    \resumeSubheading
+      {Student Researcher, University of Florida}{Remote}{SARABANDE: a python package for measuring 3/4 PCFs with FFTs | Advisor: Prof. Zack Slepian}{2021 - 2023}{
+    }
+    \resumeSubheading
+      {Student Researcher, University of Tokyo}{Remote}{The Effects of Baryonic Feedback on the Cosmic Web | Advisor: Prof. Jia Liu}{2020 - 2023}{
+    }
+    \resumeSubheading
+      {NSF Summer Research Experience for Undergraduates, University of Florida}{Gainesville, FL}{Fast Four Point Statistics of Turbulence in the Interstellar Medium | Advisor: Prof. Zack Slepian}{2021}{
+    }
+    \resumeSubheading
+      {LIGO Summer Undergraduate Research Fellowship, Caltech}{Pasadena, CA}
+      {Measuring The Hubble Constant With Dynamical Tides In Inspiraling Neutron Star Binaries | Advisor: Dr. Hang Yu}{2020}{
+    }
+
+  \resumeSubHeadingListEnd
 
 %------------PUBLICATIONS-------------------
 
@@ -170,87 +231,16 @@ I am most interested in Computational Astrophysics with a passion for simulating
 % \end{enumerate}
 % \resumeSubHeadingListEnd
 
-%-----------EXPERIENCE-----------------
-\shorterSection{Research Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Undergraduate Researcher}{Spring 2019 - Present}
-      {Nickel Observer and Researcher under Alex Filippenko}{}
-      \resumeItemListStart
-        \resumeItem{Period-determination and Identification Pipeline Suite (astroPIPS) Developer}{In this project I have been adding methods to the PIPS pipeline developed in python. These methods allow one to determine stellar properties of RR Lyrae stars using the morphology of a lightcurve. Package is available for python via pip installation.}
-        \resumeItem{Regular KAIT Telescope Checker}
-          {As part of this research team I am responsible for routinely analyzing the images KAIT takes in a given night and search for type 1a supernovae in the data}
-        \resumeItem{Zwicky Transient Facility Remote Checker}
-            {Our research group has joined the ZTF collaboration to discover supernovae candidates, my role is to check the data from the previous night I am assigned to and check for any interesting candidates and request followups for potential candidates}
-        \resumeItem{Nickel 1-Meter Observer}
-          {Monthly overnight observer for the Nickel 1 Meter Telescope at Lick observatory
-            \begin{itemize}
-                \item Observed on the Nickel 20+ Nights
-                \item Fully Checked Out Observer for the Nickel
-                \item Recorded data for a potential binary neutron star merger and was part of several GCN Circulars
-            \end{itemize}
-        \resumeItem{Shane 3-Meter Observer}
-            {Using the KAST instrument to collect spectroscopic data for supernovae and other interesting candidates.}
-          }
-      \resumeItemListEnd
-      \vspace{4pt}
-      \resumeSubheading
-        {Cosmological Multiscale Morphological Analysis of Baryonic Matter in IllustrisTNG simulations}{Fall 2020 - Present}{UC Berkeley \& University of Tokyo}{}
-        \resumeItemListStart
-            \resumeItem{Summary}
-                {The goal of this project is to either confirm or deny the validity of assumptions made about the presence of baryonic matter in large scale cosmological simulations. This project is done under the guidance of professor Jia Liu at UC Berkeley with the use of the NERSC supercomputer at LBNL.}
-        \resumeItemListEnd
-     \vspace{4pt}   
-     \resumeSubheading
-        {UF Astronomy REU Program}{Summer 2021}{University of Florida}{}
-        \resumeItemListStart
-            \resumeItem{Fast Four Point Statistics of Turbulence in the Interstellar Medium}
-                {In this summer research experience, I worked closely with professor Zachary Slepian to write an FFT based algorithm of $\mathcal{O}(N\log N)$ complexity to measure the four point correlation function on the ISM.}
-        \resumeItemListEnd    
-     \vspace{4pt}
-     \resumeSubheading
-        {LIGO Summer Undergraduate Research Fellowship}{Summer 2020}{California Institute of Technology}{}
-        \resumeItemListStart
-            \resumeItem{Measuring The Hubble Constant With Dynamical Tides In Inspiraling Neutron Star Binaries}
-                {In this research fellowship I worked under Dr. Hang Yu at Caltech to do theoretical astrophysics research involving relativistic dynamics, neutron star modes, and cosmology. This project used extensive computational methods in python.}
-        \resumeItemListEnd
-    \vspace{4pt}
-    \resumeSubheading
-        {ULAB Computational Astrophysics Project}{Fall 2019 - Spring 2020}{ULAB Mentee - UC Berkeley}{}
-        \resumeItemListStart
-            \resumeItem{Mixing Layers}
-                {In this project I learned how to use Athena++ to run MHD simulations by learning C++ and applying it to look into the mixing layer phenomena found in the interstellar medium. Along with this we created a research project poster and delivered a presentation on our project.}
-        \resumeItemListEnd
-     \vspace{4pt}
-    \resumeSubheading
-        {Intro to Astro Research Summer Workshop}{Summer 2019}
-        {UC Berkeley}{}
-        \resumeItemListStart
-            \resumeItem{Topics}
-                {In this workshop we were shown certain tools and libraries for astrophysics data analysis in python, how to use \LaTeX, how to pull data from databases using SQL, and how to use ADS and ArXiv to read and analyze scientific papers effectively}
-        \resumeItemListEnd
-    \vspace{4pt}
-    \resumeSubheading
-      {Intro to Computational Physics Final Project}{Spring 2019}
-      {We wrote a simulation of billiards in Python - UC Berkeley}{}
-      \resumeItemListStart
-        \resumeItem{Physics Engine}
-          {I wrote the physics engine that models the elastic collisions between pool balls, utilizing vector based object oriented programming}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
 
 %-----------Research Talks-----------------
 \shorterSection{Posters \& Research Talks}
   \resumeSubHeadingListStart
   \small
     \item{
-     \textbf{LIGO Caltech SURF Summer Talk}{: Presented my research to fellow SURF participants, LIGO research scientists, and mentors of the program.}
+     \textbf{The Effects of Baryons on the Cosmic Web}{: Kavli IPMU, Chiba University, University of Tokyo, Nagoya University - 2023 [\href{https://docs.google.com/presentation/d/1BfxBMvQ5SAY02Cm2MiLDsgjnAgqxJXHQEra0oanSrxg/edit?usp=sharing}{Slides}]}
     }
-    \vspace{-3pt}
     \item{
-     \textbf{Astro 198: Introduction to Research Talk}{: I gave a talk about gravitational wave cosmology with binary neutron star mergers to fellow students and Professor Mariska Kriek.}
+     \textbf{LIGO SURF Caltech Summer Talk}{: Presented my research to fellow SURF participants, LIGO research scientists, and mentors of the program.}
     }
     \vspace{-3pt}
     \item{
@@ -262,44 +252,19 @@ I am most interested in Computational Astrophysics with a passion for simulating
     }
     }
     \vspace{-3pt}
-    \item{
-     \textbf{Filippenko Research Group Talk}{: Presented a research project about gravitational wave cosmology I had done over summer and it's possible applications in our own research.}
-    }
     
 \resumeSubHeadingListEnd
 
-%-----------SKILLS-----------------
-\shorterSection{Skills \& Assets}
-  \resumeSubHeadingListStart
-  \small
-    \item{
-     \textbf{Programming Languages}{: Python, UNIX, Julia, Java, C++, HTML, Javascript, CSS}
-    }
-    \vspace{-3pt}
-    \item{
-     \textbf{Clusters}{: \textbf{Cori} at National Energy Research Computing Center (NERSC), \textbf{HiPerGator2.0} at University of Florida, \textbf{Savio} at UC Berkeley}
-    }
-    \vspace{-3pt}
-    \item{
-     \textbf{Astrophysical Simulation Codes}{: Athena++, Modules for Experiments in Astrophysics (MESA)}
-    }
-    \vspace{-3pt}
-    \item{
-     \textbf{Technologies}{: GitHub, SLURM, OpenMP, MPI, Adobe Illustrator, Adobe Photoshop, Adobe Premier Pro, Microsoft Office Programs, Google Drive}
-    }
-    \vspace{-3pt}
-    \item{
-     \textbf{Libraries}{: Numpy, Scipy, Pandas, astropy, yt, H5py, Jupyter, PyGame, MatPlotlib, ffmpeg}
-    }
-    \vspace{-3pt}
-    \item{
-     \textbf{Languages}{: English, French}
-    }
-\resumeSubHeadingListEnd
+
 
 %-----------OUTREACH-----------------
 \shorterSection{Outreach}
 \resumeSubHeadingListStart
+\resumeSubheading
+      {TEDxAustin Youth}{Austin, TX}
+      {Guest Speaker, "The Essential Skill You Can't Afford To Ignore In Today's Digital World”}{Spring 2023}
+      \vspace{3pt}
+
 \resumeSubheading
       {World of Wonders Science Museum}{Lodi, CA}
       {The local science museum of the San-Joaquin County}{Summer 2017 - Present}
@@ -362,17 +327,46 @@ I am most interested in Computational Astrophysics with a passion for simulating
  {Served as a mentor for a younger undergraduate student}{Spring 2021}
 \resumeSubheading{Berkeley High School RISE Mentor}{Berkeley, CA}
  {A tutor and mentor to struggling high school students from underprivileged families}{Fall 2018 - Spring 2020}
-\resumeSubheading{Lodi High School Academic Tutor}{Lodi, CA}
- {Was the president of the tutoring club at Lodi High, and worked for the school district as an after school tutor}{Fall 2017 - Spring 2018}
 \resumeSubHeadingListEnd
  
- 
+ %-----------SKILLS-----------------
+\shorterSection{Skills \& Assets}
+  \resumeSubHeadingListStart
+  \small
+    \item{
+     \textbf{Programming Languages}{: Python, UNIX, Julia, Java, C++, HTML, Javascript, CSS}
+    }
+    \vspace{-3pt}
+    \item{
+     \textbf{Clusters}{: \textbf{Anvil} Rosen Center for Advanced Computing, \textbf{HiPerGator3.0} at University of Florida, \textbf{Savio} at UC Berkeley}
+    }
+    \vspace{-3pt}
+    \item{
+     \textbf{Astrophysical Simulation Codes}{: Athena++, Modules for Experiments in Astrophysics (MESA)}
+    }
+    \vspace{-3pt}
+    \item{
+     \textbf{Technologies}{: GitHub, SLURM, OpenMP, MPI, Adobe Illustrator, Adobe Photoshop, Adobe Premier Pro, Microsoft Office Programs, Google Drive}
+    }
+    \vspace{-3pt}
+    \item{
+     \textbf{Libraries}{: Numpy, Scipy, Pandas, astropy, yt, H5py, Jupyter, PyGame, MatPlotlib, ffmpeg}
+    }
+    \vspace{-3pt}
+    \item{
+     \textbf{Languages}{: English, French}
+    }
+\resumeSubHeadingListEnd
 
 
 %-----------Addtional Experience & Achievements-----------------
 \shorterSection{Awards}
   \resumeSubHeadingListStart
   \small
+    \item{Fannie and John Hertz Foundation Fellowship}
+    \vspace{-3pt}
+    \item{Department of Energy Computational Science Graduate Research Fellowship (DOE CSGF) - (\textbf{\textit{Declined}})}
+    \vspace{-3pt}
     \item{Outstanding (U)GSI Teaching Award}
     \vspace{-3pt}
     \item{Chambliss Award for Best Research Poster at 238th AAS Meeting (shared)}

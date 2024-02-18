@@ -87,14 +87,14 @@
       "Zhang, K. D."
     ],
     "citations": 0,
-    "doctype": "catalog",
+    "doctype": "dataset",
     "doi": null,
     "page": null,
     "pub": "VizieR Online Data Catalog",
     "pubdate": "2023-06-00",
     "title": "VizieR Online Data Catalog: Gravity Collective: counterpart to GrW190814 (Kilpatrick+, 2021)",
     "url": "https://ui.adsabs.harvard.edu/abs/2023yCat..19230258K",
-    "volume": null,
+    "volume": "192",
     "year": "2023"
   },
   {

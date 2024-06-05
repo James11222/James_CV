@@ -561,30 +561,6 @@
   {
     "arxiv": null,
     "authors": [
-      "Vasylyev, Sergiy",
-      "Stahl, Benjamin E.",
-      "Murakami, Yukei",
-      "Hoffman, Andrew",
-      "Sunseri, James",
-      "Zhang, Keto D.",
-      "Modak, Shaunak",
-      "Zheng, WeiKang",
-      "Filippenko, Alexei V."
-    ],
-    "citations": 0,
-    "doctype": "newsletter",
-    "doi": null,
-    "page": 1,
-    "pub": "GRB Coordinates Network",
-    "pubdate": "2020-02-00",
-    "title": "LIGO/Virgo S200224ca: No counterpart candidates in KAIT observations",
-    "url": "https://ui.adsabs.harvard.edu/abs/2020GCN.27213....1V",
-    "volume": "27213",
-    "year": "2020"
-  },
-  {
-    "arxiv": null,
-    "authors": [
       "Zheng, W.",
       "Brink, T.",
       "Sunseri, J.",

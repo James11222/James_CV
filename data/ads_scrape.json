@@ -1,5 +1,25 @@
 [
   {
+    "arxiv": "2412.03967",
+    "authors": [
+      "Williamson, Victoria",
+      "Sunseri, James",
+      "Slepian, Zachary",
+      "Hou, Jiamin",
+      "Greco, Alessandro"
+    ],
+    "citations": 0,
+    "doctype": "eprint",
+    "doi": null,
+    "page": null,
+    "pub": "arXiv e-prints",
+    "pubdate": "2024-12-00",
+    "title": "First Measurements of the 4-Point Correlation Function of Magnetohydrodynamic Turbulence as a Novel Probe of the Interstellar Medium",
+    "url": "https://ui.adsabs.harvard.edu/abs/2024arXiv241203967W",
+    "volume": null,
+    "year": "2024"
+  },
+  {
     "arxiv": "2409.04660",
     "authors": [
       "Alvarado, Efrain",

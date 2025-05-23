@@ -593,6 +593,26 @@
   {
     "arxiv": null,
     "authors": [
+      "Sunseri, James",
+      "Murakami, Yukei",
+      "Zheng, WeiKang",
+      "Filippenko, Alexei V.",
+      "Lick/KAIT GW Follow-Up Team"
+    ],
+    "citations": 0,
+    "doctype": "newsletter",
+    "doi": null,
+    "page": 1,
+    "pub": "GRB Coordinates Network",
+    "pubdate": "2020-02-00",
+    "title": "LIGO/Virgo S200208q: No counterpart candidates in KAIT observations",
+    "url": "https://ui.adsabs.harvard.edu/abs/2020GCN.27033....1S",
+    "volume": "27033",
+    "year": "2020"
+  },
+  {
+    "arxiv": null,
+    "authors": [
       "Vasylyev, Sergiy",
       "Sunseri, James",
       "Girish, Nachiket",
@@ -610,26 +630,6 @@
     "title": "LIGO/Virgo S200213t: No counterpart candidates in KAIT observations",
     "url": "https://ui.adsabs.harvard.edu/abs/2020GCN.27064....1V",
     "volume": "27064",
-    "year": "2020"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Sunseri, James",
-      "Murakami, Yukei",
-      "Zheng, WeiKang",
-      "Filippenko, Alexei V.",
-      "Lick/KAIT GW Follow-Up Team"
-    ],
-    "citations": 0,
-    "doctype": "newsletter",
-    "doi": null,
-    "page": 1,
-    "pub": "GRB Coordinates Network",
-    "pubdate": "2020-02-00",
-    "title": "LIGO/Virgo S200208q: No counterpart candidates in KAIT observations",
-    "url": "https://ui.adsabs.harvard.edu/abs/2020GCN.27033....1S",
-    "volume": "27033",
     "year": "2020"
   },
   {
@@ -724,33 +724,6 @@
   {
     "arxiv": null,
     "authors": [
-      "Vasylyev, Sergiy",
-      "Girish, Nachiket",
-      "de Jaeger, Thomas",
-      "Murakami, Yukei",
-      "Stahl, Benjamin E.",
-      "Zhang, Keto D.",
-      "Sunseri, James",
-      "Modak, Shaunak",
-      "Zheng, WeiKang",
-      "Hoffman, Andrew",
-      "Filippenko, Alexei V.",
-      "Lick/KAIT GW Follow-Up Team"
-    ],
-    "citations": 0,
-    "doctype": "newsletter",
-    "doi": null,
-    "page": 1,
-    "pub": "GRB Coordinates Network",
-    "pubdate": "2019-09-00",
-    "title": "LIGO/Virgo S190901ap: No counterpart candidates in KAIT observations",
-    "url": "https://ui.adsabs.harvard.edu/abs/2019GCN.25663....1V",
-    "volume": "25663",
-    "year": "2019"
-  },
-  {
-    "arxiv": null,
-    "authors": [
       "Sunseri, James",
       "Modak, Shaunak",
       "Stahl, Benjamin E.",
@@ -773,6 +746,33 @@
     "title": "LIGO/Virgo S190910d and S190910h: No counterpart candidates in KAIT observations",
     "url": "https://ui.adsabs.harvard.edu/abs/2019GCN.25729....1S",
     "volume": "25729",
+    "year": "2019"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "Vasylyev, Sergiy",
+      "Girish, Nachiket",
+      "de Jaeger, Thomas",
+      "Murakami, Yukei",
+      "Stahl, Benjamin E.",
+      "Zhang, Keto D.",
+      "Sunseri, James",
+      "Modak, Shaunak",
+      "Zheng, WeiKang",
+      "Hoffman, Andrew",
+      "Filippenko, Alexei V.",
+      "Lick/KAIT GW Follow-Up Team"
+    ],
+    "citations": 0,
+    "doctype": "newsletter",
+    "doi": null,
+    "page": 1,
+    "pub": "GRB Coordinates Network",
+    "pubdate": "2019-09-00",
+    "title": "LIGO/Virgo S190901ap: No counterpart candidates in KAIT observations",
+    "url": "https://ui.adsabs.harvard.edu/abs/2019GCN.25663....1V",
+    "volume": "25663",
     "year": "2019"
   },
   {

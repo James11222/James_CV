@@ -1,5 +1,28 @@
 [
   {
+    "arxiv": "2505.20413",
+    "authors": [
+      "Sunseri, James",
+      "Amon, Alexandra",
+      "Dunkley, Jo",
+      "Battaglia, Nicholas",
+      "Ferraro, Simone",
+      "Hadzhiyska, Boryana",
+      "Ried Guachalla, Bernadita",
+      "Schaan, Emmanuel"
+    ],
+    "citations": 0,
+    "doctype": "eprint",
+    "doi": null,
+    "page": null,
+    "pub": "arXiv e-prints",
+    "pubdate": "2025-05-00",
+    "title": "Disentangling the Halo: Joint Model for Measurements of the Kinetic Sunyaev-Zeldovich Effect and Galaxy-Galaxy Lensing",
+    "url": "https://ui.adsabs.harvard.edu/abs/2025arXiv250520413S",
+    "volume": null,
+    "year": "2025"
+  },
+  {
     "arxiv": "2503.11778",
     "authors": [
       "Sunseri, James",

@@ -1,12 +1,35 @@
 [
   {
+    "arxiv": "2505.20413",
+    "authors": [
+      "Sunseri, James",
+      "Amon, Alexandra",
+      "Dunkley, Jo",
+      "Battaglia, Nicholas",
+      "Ferraro, Simone",
+      "Hadzhiyska, Boryana",
+      "Guachalla, Bernardita Ried",
+      "Schaan, Emmanuel"
+    ],
+    "citations": 8,
+    "doctype": "article",
+    "doi": "10.1093/mnras/stag031",
+    "page": null,
+    "pub": "Monthly Notices of the Royal Astronomical Society",
+    "pubdate": "2026-01-00",
+    "title": "Disentangling the Halo: Joint Model for Measurements of the Kinetic Sunyaev-Zeldovich Effect and Galaxy-Galaxy Lensing",
+    "url": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.tmp..113S",
+    "volume": null,
+    "year": "2026"
+  },
+  {
     "arxiv": "2510.19822",
     "authors": [
       "Sunseri, James",
       "Andalman, Zachary L.",
       "Teyssier, Romain"
     ],
-    "citations": 0,
+    "citations": 1,
     "doctype": "eprint",
     "doi": "10.48550/arXiv.2510.19822",
     "page": null,
@@ -24,7 +47,7 @@
       "Bayer, Adrian E.",
       "Liu, Jia"
     ],
-    "citations": 1,
+    "citations": 4,
     "doctype": "article",
     "doi": "10.1103/grx3-hj7w",
     "page": 63516,
@@ -33,29 +56,6 @@
     "title": "Power of the cosmic web",
     "url": "https://ui.adsabs.harvard.edu/abs/2025PhRvD.112f3516S",
     "volume": "112",
-    "year": "2025"
-  },
-  {
-    "arxiv": "2505.20413",
-    "authors": [
-      "Sunseri, James",
-      "Amon, Alexandra",
-      "Dunkley, Jo",
-      "Battaglia, Nicholas",
-      "Ferraro, Simone",
-      "Hadzhiyska, Boryana",
-      "Ried Guachalla, Bernardita",
-      "Schaan, Emmanuel"
-    ],
-    "citations": 6,
-    "doctype": "eprint",
-    "doi": "10.48550/arXiv.2505.20413",
-    "page": null,
-    "pub": "arXiv e-prints",
-    "pubdate": "2025-05-00",
-    "title": "Disentangling the Halo: Joint Model for Measurements of the Kinetic Sunyaev-Zeldovich Effect and Galaxy-Galaxy Lensing",
-    "url": "https://ui.adsabs.harvard.edu/abs/2025arXiv250520413S",
-    "volume": null,
     "year": "2025"
   },
   {
@@ -103,7 +103,7 @@
       "Zheng, WeiKang",
       "Filippenko, Alexei V."
     ],
-    "citations": 6,
+    "citations": 7,
     "doctype": "article",
     "doi": "10.1093/mnras/stae2062",
     "page": 800,
@@ -253,7 +253,7 @@
       "Van Dyk, S. D.",
       "Yadav, L."
     ],
-    "citations": 18,
+    "citations": 19,
     "doctype": "article",
     "doi": "10.1093/mnras/stac3234",
     "page": 248,
@@ -271,7 +271,7 @@
       "Li, Zack",
       "Liu, Jia"
     ],
-    "citations": 18,
+    "citations": 19,
     "doctype": "article",
     "doi": "10.1103/PhysRevD.107.023514",
     "page": 23514,
@@ -292,7 +292,7 @@
       "Kahraman, Sule",
       "Finkbeiner, Douglas P."
     ],
-    "citations": 14,
+    "citations": 15,
     "doctype": "article",
     "doi": "10.1093/rasti/rzad003",
     "page": 62,
@@ -557,7 +557,7 @@
       "Wiesner, Matthew P.",
       "Zhang, Keto D."
     ],
-    "citations": 35,
+    "citations": 36,
     "doctype": "article",
     "doi": "10.3847/1538-4357/ac23c6",
     "page": 258,

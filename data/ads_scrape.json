@@ -16,10 +16,10 @@
     "doi": "10.1093/mnras/stag031",
     "page": null,
     "pub": "Monthly Notices of the Royal Astronomical Society",
-    "pubdate": "2026-01-00",
-    "title": "Disentangling the Halo: Joint Model for Measurements of the Kinetic Sunyaev-Zeldovich Effect and Galaxy-Galaxy Lensing",
-    "url": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.tmp..113S",
-    "volume": null,
+    "pubdate": "2026-02-00",
+    "title": "Disentangling the halo: joint model for measurements of the kinetic Sunyaev--Zeldovich effect and galaxy--galaxy lensing",
+    "url": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.546ag031S",
+    "volume": "546",
     "year": "2026"
   },
   {
@@ -29,7 +29,7 @@
       "Andalman, Zachary L.",
       "Teyssier, Romain"
     ],
-    "citations": 1,
+    "citations": 2,
     "doctype": "eprint",
     "doi": "10.48550/arXiv.2510.19822",
     "page": null,
@@ -47,7 +47,7 @@
       "Bayer, Adrian E.",
       "Liu, Jia"
     ],
-    "citations": 4,
+    "citations": 5,
     "doctype": "article",
     "doi": "10.1103/grx3-hj7w",
     "page": 63516,
@@ -103,7 +103,7 @@
       "Zheng, WeiKang",
       "Filippenko, Alexei V."
     ],
-    "citations": 7,
+    "citations": 9,
     "doctype": "article",
     "doi": "10.1093/mnras/stae2062",
     "page": 800,

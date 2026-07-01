@@ -1,5 +1,23 @@
 [
   {
+    "arxiv": "2510.19822",
+    "authors": [
+      "Sunseri, James",
+      "Andalman, Zachary L.",
+      "Teyssier, Romain"
+    ],
+    "citations": 3,
+    "doctype": "article",
+    "doi": "10.1093/mnras/stag1129",
+    "page": null,
+    "pub": "Monthly Notices of the Royal Astronomical Society",
+    "pubdate": "2026-06-00",
+    "title": "Supermassive Black Hole Growth in Massive Galaxies at Cosmic Dawn",
+    "url": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.tmp.1069S",
+    "volume": null,
+    "year": "2026"
+  },
+  {
     "arxiv": "2505.20413",
     "authors": [
       "Sunseri, James",
@@ -21,24 +39,6 @@
     "url": "https://ui.adsabs.harvard.edu/abs/2026MNRAS.546ag031S",
     "volume": "546",
     "year": "2026"
-  },
-  {
-    "arxiv": "2510.19822",
-    "authors": [
-      "Sunseri, James",
-      "Andalman, Zachary L.",
-      "Teyssier, Romain"
-    ],
-    "citations": 3,
-    "doctype": "eprint",
-    "doi": "10.48550/arXiv.2510.19822",
-    "page": null,
-    "pub": "arXiv e-prints",
-    "pubdate": "2025-10-00",
-    "title": "Supermassive Black Hole Growth in Massive Galaxies at Cosmic Dawn",
-    "url": "https://ui.adsabs.harvard.edu/abs/2025arXiv251019822S",
-    "volume": null,
-    "year": "2025"
   },
   {
     "arxiv": "2503.11778",
@@ -67,7 +67,7 @@
       "Hou, Jiamin",
       "Greco, Alessandro"
     ],
-    "citations": 3,
+    "citations": 4,
     "doctype": "eprint",
     "doi": "10.48550/arXiv.2412.03967",
     "page": null,
@@ -634,26 +634,6 @@
   {
     "arxiv": null,
     "authors": [
-      "Sunseri, James",
-      "Murakami, Yukei",
-      "Zheng, WeiKang",
-      "Filippenko, Alexei V.",
-      "Lick/KAIT GW Follow-Up Team"
-    ],
-    "citations": 0,
-    "doctype": "newsletter",
-    "doi": null,
-    "page": 1,
-    "pub": "GRB Coordinates Network",
-    "pubdate": "2020-02-00",
-    "title": "LIGO/Virgo S200208q: No counterpart candidates in KAIT observations",
-    "url": "https://ui.adsabs.harvard.edu/abs/2020GCN.27033....1S",
-    "volume": "27033",
-    "year": "2020"
-  },
-  {
-    "arxiv": null,
-    "authors": [
       "Vasylyev, Sergiy",
       "Sunseri, James",
       "Girish, Nachiket",
@@ -671,6 +651,26 @@
     "title": "LIGO/Virgo S200213t: No counterpart candidates in KAIT observations",
     "url": "https://ui.adsabs.harvard.edu/abs/2020GCN.27064....1V",
     "volume": "27064",
+    "year": "2020"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "Sunseri, James",
+      "Murakami, Yukei",
+      "Zheng, WeiKang",
+      "Filippenko, Alexei V.",
+      "Lick/KAIT GW Follow-Up Team"
+    ],
+    "citations": 0,
+    "doctype": "newsletter",
+    "doi": null,
+    "page": 1,
+    "pub": "GRB Coordinates Network",
+    "pubdate": "2020-02-00",
+    "title": "LIGO/Virgo S200208q: No counterpart candidates in KAIT observations",
+    "url": "https://ui.adsabs.harvard.edu/abs/2020GCN.27033....1S",
+    "volume": "27033",
     "year": "2020"
   },
   {
